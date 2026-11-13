@@ -547,6 +547,66 @@
           "unit": ""
         }
       }
+    },
+    "starrynight": {
+      "name": "Starry Night",
+      "desc": "A night sky of Van Gogh brush strokes: your icons are the stars, and the paint flows around their halos and the swirls",
+      "groups": [
+        "Stars",
+        "Sky",
+        "Landscape"
+      ],
+      "params": {
+        "halo": {
+          "label": "Halo size",
+          "hint": "How far the starlight spreads around each icon"
+        },
+        "speed": {
+          "label": "Flow speed",
+          "hint": "How fast the strokes drift along the current; 0 keeps it still"
+        },
+        "stroke": {
+          "label": "Brush width",
+          "hint": "Fine, dense strokes or thick, heavy ones"
+        },
+        "swirls": {
+          "label": "Swirls",
+          "hint": "How many big swirls fill the widest gaps your icons leave"
+        },
+        "palette": {
+          "label": "Palette",
+          "hint": "The classic blue and yellow, or two other moods",
+          "options": [
+            "Classic",
+            "Dawn",
+            "Emerald"
+          ]
+        },
+        "showMoon": {
+          "label": "Show moon",
+          "hint": "A crescent moon in a free spot high up",
+          "options": [
+            "Hide",
+            "Show"
+          ]
+        },
+        "showCypress": {
+          "label": "Show cypress",
+          "hint": "The dark cypress in the foreground",
+          "options": [
+            "Hide",
+            "Show"
+          ]
+        },
+        "showVillage": {
+          "label": "Show village",
+          "hint": "The hills, the houses with lit windows and the church",
+          "options": [
+            "Hide",
+            "Show"
+          ]
+        }
+      }
     }
   }
 }
