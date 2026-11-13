@@ -175,6 +175,113 @@
       ]
     },
     {
+      "id": "starrynight",
+      "name": "星夜",
+      "desc": "梵高笔触的夜空：图标就是星星，笔触绕着光晕和漩涡缓缓流动",
+      "page": "starrynight.html",
+      "status": "ready",
+      "product": "free",
+      "thumb": "url(thumbs/starrynight.webp?v=1) center / cover no-repeat, radial-gradient(circle at 72% 30%, #fff6c4 0 5%, #f6cf3a 9%, transparent 20%), radial-gradient(circle at 30% 45%, #5b8fd8 0 8%, transparent 22%), linear-gradient(170deg, #0d1642 0%, #1d479c 70%, #12284f 100%)",
+      "thumbSource": "custom",
+      "groups": [
+        {
+          "name": "星星",
+          "params": [
+            {
+              "key": "halo",
+              "label": "光晕大小",
+              "hint": "每个图标周围的星光往外铺多远",
+              "min": 40,
+              "max": 200,
+              "step": 1,
+              "default": 90,
+              "unit": "px"
+            }
+          ]
+        },
+        {
+          "name": "夜空",
+          "params": [
+            {
+              "key": "speed",
+              "label": "流动速度",
+              "hint": "笔触顺着气流移动得多快，0 为静止",
+              "min": 0,
+              "max": 3,
+              "step": 0.05,
+              "default": 1,
+              "format": "times"
+            },
+            {
+              "key": "stroke",
+              "label": "笔触粗细",
+              "hint": "细而密的笔触，或粗而厚的笔触",
+              "min": 3,
+              "max": 12,
+              "step": 0.5,
+              "default": 6,
+              "unit": "px"
+            },
+            {
+              "key": "swirls",
+              "label": "漩涡数量",
+              "hint": "在图标留出的最大空隙里放几个大漩涡",
+              "min": 0,
+              "max": 4,
+              "step": 1,
+              "default": 2
+            },
+            {
+              "key": "palette",
+              "label": "配色",
+              "hint": "经典的蓝与黄，或另外两种色调",
+              "options": [
+                "经典",
+                "黎明",
+                "翡翠"
+              ],
+              "default": 0
+            }
+          ]
+        },
+        {
+          "name": "风景",
+          "params": [
+            {
+              "key": "showMoon",
+              "label": "显示月亮",
+              "hint": "高处空位上的一弯月亮",
+              "options": [
+                "隐藏",
+                "显示"
+              ],
+              "default": 1
+            },
+            {
+              "key": "showCypress",
+              "label": "显示柏树",
+              "hint": "前景里深色的柏树",
+              "options": [
+                "隐藏",
+                "显示"
+              ],
+              "default": 1
+            },
+            {
+              "key": "showVillage",
+              "label": "显示村庄",
+              "hint": "山丘、亮着灯的房子和教堂",
+              "options": [
+                "隐藏",
+                "显示"
+              ],
+              "default": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "beach-turquoise",
       "name": "马尔代夫",
       "desc": "青绿色海水与浅米黄沙滩，暗色珊瑚礁间的小鱼成群游动",
